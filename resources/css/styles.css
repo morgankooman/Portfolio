@@ -1,0 +1,381 @@
+html {
+  scroll-behavior: smooth;
+  
+}
+body {
+    width: 100%;
+    background-color: #222;
+    color: #e6e6e6;
+
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 5rem;
+    background-color: inherit;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    position: fixed;
+    margin-right: 75%;
+}
+
+h2 {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid orange;
+    padding: 1rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    cursor: pointer;
+}
+.link:active{
+    filter: brightness(1.25);
+    color: orange;
+}
+.portfolio img:active {
+    filter: brightness(1.25);
+}
+nav {
+    position: fixed;
+    z-index: 2;
+}
+
+nav li {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-content: space-between;
+    margin: 2rem 2rem;
+    padding: 10px;
+    background-color: white;
+    border-radius: 25%;
+    border: 2px solid orange;
+    font-weight: bold;
+}
+nav li:active{
+    padding: 8.5px;
+    border: 3.5px solid orange;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#contact-page {
+    margin-top: 10rem;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid orange;
+    padding: 1rem;
+}
+.contact-info {
+    display: inline-flex;
+    height: 400px;
+    width: 75%;
+}
+.contact-info p {
+    margin: 5rem auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .social-media figure {
+      width: 5rem;
+      height: auto;
+  }
+  .contact-links {
+      width: 100%;
+      height: auto;
+  }
+
+
+.about {
+    width: 75%;
+    display: inline-flex;
+}
+.about img {
+    width: 20rem;
+}
+.about-blurb {
+    margin-left: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.portfolio p {
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    grid-template: repeat(25, 1fr) / repeat(15, 1fr);
+}
+
+.resize {
+    height: 100%;
+    width: 100%;
+}
+
+.removals-img {
+    grid-area: 1 / 1 / 8 / 9;
+    margin: auto;
+}
+.removals-title {
+    grid-area: 2 / 10 / 4 / 15;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin: auto;
+}
+.removals-blurb {
+    grid-area: 3 / 10 / 7 / 15;
+    margin: auto;
+}
+.skills-1 {
+    grid-area: 6 / 10 / 7 / 15;
+    margin: auto;
+}
+
+
+.mushroom-img {
+    grid-area: 10 / 7 / 17 / 15;
+    margin: auto;
+}
+.mushroom-title {
+    grid-area: 11 / 1 / 13 / 6;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: auto;
+}
+.mushroom-blurb {
+    grid-area: 12 / 1 / 16 / 6;
+    margin: auto;
+}
+.skills-2 {
+    grid-area: 15 / 1 / 16 / 6;
+    margin: auto;
+}
+
+.tea-img {
+    grid-area: 19 / 1 / 26 / 9;
+    margin: auto;
+}
+.tea-title {
+    grid-area: 20 / 10 / 22 / 15;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: auto;
+}
+.tea-blurb {
+    grid-area: 21 / 10 / 25 / 15;
+    margin: auto;
+}
+.skills-3 {
+    grid-area: 24 / 10 / 25 / 15;
+    margin: auto;
+}
+
+.skills {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.skills figure {
+    width: 90%;
+    margin: auto 3rem;
+}
+.skill img {
+    width: 90%;
+    height: auto;
+}
+#git {
+    width: 75%;
+    height: auto;
+}
+.skill-words {
+    text-align: center;
+    padding-right: 2rem;
+}
+.git {
+    padding-right: 5rem;
+}
+.page-author {
+    font-size: 1.5rem;
+    text-align: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dark{
+    background-color:whitesmoke;
+    color: #222;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .hide {
+        display: none;
+    }
+    h1 {
+        display: none;
+    }
+    nav li {
+        margin: 1.5rem 1.5rem;
+    }
+    .about {
+        width: 100%;
+    }
+    .about-blurb {
+        margin-left: 10%;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-weight: normal;
+        font-size: 1rem;
+    }
+    .about img {
+        width: 7rem;
+    }
+
+    .grid {
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .skills {
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    .skills figure {
+        width: 50%;
+        margin: auto;
+    }
+    .skill {
+        display: inline-flex;
+    }
+    
+    .skill img {
+        width: 80%;
+        height: auto;
+    }
+    #git {
+        width: 75%;
+        height: auto;
+    }
+    .git {
+        padding-right: none;
+    }
+    .contact-info {
+        display: flex;
+        height: 400px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .contact-info p {
+        margin: 2rem auto;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .social-media {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+      }
+    
+      .social-media figure {
+          width: 5rem;
+          height: auto;
+      }
+      .contact-links {
+          width: 100%;
+          height: auto;
+      }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+    
+    .hide {
+        display: none;
+    }
+    h1 {
+        display: none;
+    }
+    nav li {
+        margin: 1.5rem 1.5rem;
+    }
+    .about {
+        width: 85%;
+    }
+    .about-blurb {
+        margin-left: 10%;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-weight: normal;
+        font-size: 1rem;
+    }
+    .about img {
+        width: 16rem;
+    }
+    .skills {
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    .skills figure {
+        width: 70%;
+        margin: auto;
+    }
+    .skill {
+        display: inline-flex;
+    }
+    
+    .skill img {
+        width: 85%;
+        height: auto;
+    }
+    #git {
+        width: 75%;
+        height: auto;
+    }
+    .git {
+        padding-right: none;
+    }
+}

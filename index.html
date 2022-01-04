@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/styles.css">
+    <title>Morgan K Portfolio</title>
+</head>
+<header>
+    <h1>Morgan Kooman</h1>
+    <div class="header">
+        <nav>
+            <ul>
+                <li class="link"><a href="#">Home</a></li>
+                <li class="link hide"><a href="#Portfolio">Portfolio</a></li>
+                <li class="link hide"><a href="#Skills">Skills</a></li>
+                <li class="link"><a href="./contact.html">Contact</a></li>
+                <li id="dark-light"><button onclick="darkMode()">Light/Dark</button></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+
+    <h2>About me</h2>
+    <section class="about"><p class="about-blurb">Hi I'm Morgan, I come from New Zealand. At present I'm based in Stockholm, Sweden.
+        I am a qualified Human Resources and Health & Safety professional. Currently I am learning to code through Codecademy's Front-End Engineer career path.</p>
+        <figure><img class="profile" src="https://media-exp1.licdn.com/dms/image/C4E03AQHosEWJr0AvBg/profile-displayphoto-shrink_400_400/0/1588602181680?e=1645660800&v=beta&t=v5Kw_7YFHk3hNvruAOgK7ePOt1E4slC4-5o-a-BVe2s" alt="Me in Svalbard">
+        </figure>
+    </section>
+
+    <h2 id="Portfolio">Portfolio</h2>
+    <section class="portfolio grid">
+        <div class="removals-img">
+            <a href="https://morgankooman.github.io/Forced-Removals/"><img class="resize" src="./resources/images/Removals.png" alt="Forced Removals"></a>
+        </div>
+        <div class="removals-title">
+            <p>Forced Removals</p>
+        </div>
+        <div class="removals-blurb">
+            <p>This project was to practice using flexbox to design and build the layout for a company homepage.</p>
+        </div>
+        <div class="skills-1"><p>html, css and git</p></div>
+        <div class="mushroom-img">
+            <a href="https://morgankooman.github.io/mushroom-club/"><img class="resize" src="./resources/images/Mushroom club.png" alt="Stockholm Mushroom Club"></a>
+        </div>
+        <div class="mushroom-title">
+            <p>Responsive Club Website: Stockholm Mushroom Club</p>
+        </div>
+        <div class="mushroom-blurb">
+            <p>This project was to practice responsive design. Using media queries to make the site change dynamicly at breakpoints to remain viewable on screens of different sizes</p>
+        </div>
+        <div class="skills-2"><p>html, css, media queries and git</p></div>
+        <div class="tea-img">
+            <a href="https://morgankooman.github.io/Tea-cosy/"><img class="resize" src="./resources/images/Tea.png" alt="Tea-cosy"></a>
+        </div>
+        <div class="tea-title">
+            <p>Tea Cosy</p>
+        </div>
+        <div class="tea-blurb">
+            <p>This project was to practice making a website according to a page of design specifications and otherwise further practice html and css</p>
+        </div>
+        <div class="skills-3"><p>html, css and git</p></div>
+    </section>
+    <section>
+        <h2 id="Skills">Skills</h2>
+        <section class="skills">
+            <div class="skill">
+                <figure>
+                    <img src="./resources/images/html.svg" alt="HTML image" />
+                    <div class="skill-words">
+                        <h3>HTML</h3>
+                        <p>Level: <br> Intermediate </p>
+                    </div>
+                </figure>
+            </div>
+            <div class="skill">
+                <figure>
+                    <img src="./resources/images/css.svg" alt="CSS image" />
+                    <div class="skill-words">
+                        <h3>CSS</h3>
+                        <span>Level: <br> Intermediate</span>
+                    </div>
+                </figure>
+            </div>
+            <div class="skill">
+                <figure>
+                    <img src="./resources/images/javascript.svg" alt="JS image" />
+                    <div class="skill-words">
+                        <h3>JavaScript</h3>
+                        <span>Level: <br> Intermediate</span>
+                    </div>
+                </figure>
+            </div>
+            <div class="skill Git">
+                <figure>
+                    <img id="git" src="./resources/images/git.svg" alt="Git image" />
+                    <div class="skill-words git">
+                        <h3>Git</h3>
+                        <span>Level: <br> Beginner</span>
+                    </div>
+                </figure>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <h2>My Personal Portfolio Website</h2>
+        <p class="page-author">by Morgan Kooman </p>
+        <p class="page-author">&copy; 2021</p>
+    </footer>
+    <script src="./script.js">
+    </script>
+</body>
+</html>
