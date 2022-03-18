@@ -114,6 +114,17 @@ nav li:active{
       height: auto;
   }
 
+  #dark-light {
+      color: #222;
+    }
+  #dark-light:hover {
+      cursor: pointer;
+  }
+  #dark-light:active {
+    filter: brightness(1.25);
+    color: orange;
+  }
+
 
 .about {
     width: 75%;
@@ -218,6 +229,11 @@ nav li:active{
     width: 90%;
     height: auto;
 }
+#react {
+    margin-top: -1.3rem;
+    margin-bottom: -1.5rem;
+}
+
 #git {
     width: 75%;
     height: auto;
@@ -238,7 +254,7 @@ footer {
     flex-direction: column;
   }
 
-  .dark{
+  .light{
     background-color:whitesmoke;
     color: #222;
 }
@@ -292,6 +308,10 @@ footer {
     .skill img {
         width: 80%;
         height: auto;
+    }
+    #react {
+        margin-top: -1.3rem;
+        margin-bottom: -1.5rem;
     }
     #git {
         width: 75%;
@@ -374,6 +394,10 @@ footer {
     #git {
         width: 75%;
         height: auto;
+    }
+    #react {
+        margin-top: -1.3rem;
+        margin-bottom: -1.5rem;
     }
     .git {
         padding-right: none;
